@@ -19,7 +19,7 @@ module.exports = {
 		  unique: true
 	  },
 	  description: {
-		  type: "text",
+		  type: "string",
 		  required: true
 	  },
 	  threads: {
