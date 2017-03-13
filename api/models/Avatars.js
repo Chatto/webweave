@@ -8,6 +8,19 @@
 module.exports = {
 
   attributes: {
+	  filename: {
+		  type:"string",
+		  required:true,
+		  unique:true
+	  },
+	  data: {
+		  type: "string",
+		  required:true
+	  },
+	  user: {
+		  collection: "users",
+		  via:"avatar"
+	  }
 
   }
 };

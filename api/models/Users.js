@@ -35,6 +35,9 @@ module.exports = {
 	  threads: {
 		  collection: "threads",
 		  via: "author"
+	  },
+	  avatar: {
+		  model: "avatars"
 	  }
   }
 };
