@@ -25,7 +25,21 @@ module.exports.policies = {
   * access)                                                                  *
   *                                                                          *
   ***************************************************************************/
+	  '*': [
+    'basicAuth',
+    'passport',
+    'sessionAuth',
+    'ModelPolicy',
+    'AuditPolicy',
+    'OwnerPolicy',
+    'PermissionPolicy',
+    'RolePolicy',
+    'CriteriaPolicy'
+  ],
 
+  AuthController: {
+    '*': [ 'passport' ]
+  }
   // '*': true,
 
   /***************************************************************************

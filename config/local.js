@@ -28,7 +28,11 @@
  */
 
 module.exports = {
-
+   permissions: {
+     adminUsername: 'chattovt',
+     adminEmail: 'kazunanakama@gmail.com',
+     adminPassword: 'Clefable64'
+   }
   /***************************************************************************
    * Your SSL certificate and key, if you want to be able to serve HTTP      *
    * responses over https:// and/or use websockets over the wss:// protocol  *
@@ -81,5 +85,6 @@ module.exports = {
    ***************************************************************************/
 
    // environment: process.env.NODE_ENV || 'development'
+
 
 };
